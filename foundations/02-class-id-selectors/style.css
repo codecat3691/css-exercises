@@ -1,0 +1,19 @@
+.odd {
+    background-color: hsl(347, 100%, 73%);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#evena {
+    color: hsl(244, 100%, 50%);
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#evenb {
+    background-color: hsl(113, 100%, 70%);
+    font-size: 24px;
+    font-weight: bold;
+}

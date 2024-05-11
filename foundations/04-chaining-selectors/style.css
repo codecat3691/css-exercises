@@ -1,1 +1,23 @@
 /* Add CSS Styling */
+
+.avatar.proportioned {
+    width: 300px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* 
+
+height: auto - makes the image retain its original square proportions.
+
+Chaining selectors:
+
+They are just two or more classes together without spacing.
+
+.avatar.distorted : like that.
+
+*/

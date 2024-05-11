@@ -1,0 +1,18 @@
+/*  
+
+The descendant combinator, 
+is represented in CSS by a
+single space between selectors.
+
+I combined a class with a type selector:
+
+.container p
+
+*/
+
+.container p { /* feeling adventurous lol */
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
