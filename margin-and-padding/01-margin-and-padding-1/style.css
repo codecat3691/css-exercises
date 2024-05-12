@@ -7,15 +7,15 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
@@ -23,6 +23,46 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto; /* this is important, read below */
 }
+
+/* 
+
+Simply edit the `style.css` file so that 
+the divs look like the image below.
+
+You should only have to change the values 
+of the margin and padding for this exercise.
+
+You should not have to add or remove properties in the CSS, or touch the HTML.
+
+padding: inside the box.
+border: the border of the box.
+margin: outside the box.
+
+Auto property explained:
+
+A block-level element with height: auto 
+will grow taller as it contains more text.
+
+A block element with margin: 0 auto 
+will have the left and right margins increased until it becomes centered 
+along the y-axis of the viewport.
+
+Block vs inline:
+
+Block elements will appear on the page stacked atop each other, 
+each new element starting on a new line.
+
+Most of the elements their default style is display: block.
+
+Inline elements, do not start on a new line. 
+They appear in line with whatever elements they are placed beside.
+
+Padding and margin behave differently on inline elements.
+
+In general, you do not want to try to put extra padding or margin 
+on inline elements.
+
+*/

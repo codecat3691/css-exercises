@@ -7,21 +7,64 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  
+  /*Changed below*/
+  padding: 8px;
+
 }
 
 .title {
   background: #e3f4ff;
+  
+  /*Changed below*/
+  font-size: 16px;
+  padding: 8px;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .content {
   background: #e3f4ff;
+
+  /*Changed below*/
+  margin-bottom: 8px;
+  padding: 16px 8px;
+  
 }
 
 .button-container {
   background: #e3f4ff;
+  
+  /*Changed below*/
+  text-align: center;
+  padding: 8px;
+  
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  
+  /*Changed below*/
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+
 }
+
+/*
+
+You'll need to change a little more 
+than just margin and padding to make it look exactly right.
+
+margin: 0 auto - centers the button
+display: block - creates a new line for the button
+
+padding: 8px 24px - 8px is the height, 24px is width...
+
+Try not to put unnecesary margin-bottom or margin-top, check the margin with
+the google inspector, and check if there is repetition...
+
+display: block, for button so it starts on a new line.
+
+*/
