@@ -3,6 +3,11 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  
+  /*Changed below*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -12,4 +17,14 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
+
+  /*Did not touch*/
 }
+
+/* 
+
+This one is too easy...
+
+Just touched CSS...
+
+*/

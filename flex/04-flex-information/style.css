@@ -10,6 +10,24 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+
+  /*Changed below*/
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+/*Added selectors below*/
+
+.plantcontainer {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.plants {
+  max-width: 200px;
+  text-align: center;
 }
 
 /* do not edit this footer */
@@ -24,3 +42,35 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* 
+
+---------TASK-------------
+
+For this one you will need to edit the HTML a little bit too.
+
+You'll want to add containers around the various elements 
+so that you can flex them.
+
+---------TASK-------------
+
+This was also easy, i solved it a bit differently as the solution 
+but its still the same....
+
+The dude just put a text-align: center at the body, that was intelligent...
+With that not only text, but the images from plants were centered...{
+
+I went another route... putting display: flex, justify-content: center,
+at the title and placing text-align at each item with .plants...
+
+Also i used width, instead of max-width, but it didn't changed at all..
+
+The rest was the exactly the same as the solution...
+
+Im getting the hang of it, is very simple with practice...
+
+And yes, to my question a couple of exercises back...
+
+I should only flex on the parent most of the times...
+
+*/

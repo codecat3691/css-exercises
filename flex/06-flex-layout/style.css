@@ -5,6 +5,25 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+
+  /*My changes below*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  /*
+
+  IMPORTANT
+
+  I was struggling getting the footer down, with this it was possible...
+
+  It was like a click to me, i could space-between every container
+  but in a column way.
+
+  I was trying to flex-direction: column at the footer, but noooo
+  it was at the body LOL...
+
+  */
 }
 
 img {
@@ -16,6 +35,9 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+
+  /*My changes below*/
+  padding: 8px;
 }
 
 input {
@@ -24,3 +46,60 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/*Added Selectors Below*/
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: #eeeeee;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*  
+
+You may want to search something like `CSS remove list bullets`.
+
+Finding out how to style links in CSS 
+might help you get rid of that pesky underline decoration...
+
+We've added `height: 100vh` to the `body`... 
+this makes the body exactly the same height as the viewport.
+
+To stick the footer to the bottom you will need to use flex 
+and change the direction to column.
+
+Removing margins and paddings from "ul"
+is also useful since browsers usually add that by default.
+
+Explanation is above...
+
+*/
